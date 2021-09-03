@@ -32,7 +32,7 @@ const server = new ApolloServer({
     gateway,
     subscriptions: false,
     apollo: {
-        key: 'service:My-Graph-vfy4m6:THSHKlHL1hSxteml7Lrn_Q',
+        key: 'service:My-Graph-vfy4m6:',
         graphId: 'My-Graph-vfy4m6',
         graphVariant: 'current',
         schemaReporting: true
