@@ -1,0 +1,27 @@
+{
+  "name": "untitled",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "testgql": "echo \"Error: no test specified\" && exit 1",
+    "gateway": "node gateway.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/gateway": "^0.35.1",
+    "@graphql-tools/stitch": "^8.3.0",
+    "apollo-datasource-http": "^0.16.1",
+    "apollo-server": "^3.1.2",
+    "apollo-server-core": "^3.1.2",
+    "apollo-server-plugin-http-headers": "^0.1.4",
+    "cross-fetch": "^3.1.4",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "federation-to-stitching-sdl": "^1.0.1",
+    "graphql": "^15.5.1"
+  },
+  "type": "module"
+}
