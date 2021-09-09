@@ -7,7 +7,8 @@ const gateway = new ApolloGateway({
     serviceList: [
         {name: 'shows', url: 'http://localhost:4001/graphql'},
         {name: 'reviews', url: 'http://localhost:4002/graphql'},
-        {name: 'samples', url: 'http://localhost:8080/graphql'}
+        {name: 'samples', url: 'http://localhost:8080/graphql'},
+        {name: 'teachers', url: 'http://localhost:8081/graphql'}
     ],
     buildService({name, url}) {
         return new RemoteGraphQLDataSource({
